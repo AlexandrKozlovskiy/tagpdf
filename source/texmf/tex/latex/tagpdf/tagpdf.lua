@@ -3,8 +3,8 @@
 
 local ProvidesLuaModule = { 
     name          = "tagpdf",
-    version       = "0.61",       --TAGVERSION
-    date          = "2019-07-02", --TAGDATE
+    version       = "0.62",       --TAGVERSION
+    date          = "2019-10-16", --TAGDATE
     description   = "tagpdf lua code",
     license       = "The LATEX Project Public License 1.3c"
 }
@@ -371,8 +371,8 @@ function uftag.func.mark_page_elements (box,mcpagecnt,mccntprev,mcopen,name,mcty
      -- perhaps code that tag a artifact can be added ...  
        if tagunmarkedbool.mode == truebool.mode then
         box.list = __uftag_insert_bmc_node (box.list,n,"Artifact")
+        mcopen = mcopen + 1
        end 
-       mcopen = mcopen + 1
       end
       mccntprev = mccnt
      end  

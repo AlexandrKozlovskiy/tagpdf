@@ -1,4 +1,4 @@
-\ProvidesExplFile {tagpdf-pdftex.def} {2019/07/02} {0.61}
+\ProvidesExplFile {tagpdf-pdftex.def} {2019/10/16} {0.62}
   {tagpdf~driver~for~pdftex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

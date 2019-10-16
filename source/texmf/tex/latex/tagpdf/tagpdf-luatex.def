@@ -1,4 +1,4 @@
-\ProvidesExplFile {tagpdf-luatex.def} {2019/07/02} {0.61}
+\ProvidesExplFile {tagpdf-luatex.def} {2019/10/16} {0.62}
   {tagpdf~driver~for~luatex}
 
 %\newattribute \g__uftag_mc_type_attr     %the value represent the type
